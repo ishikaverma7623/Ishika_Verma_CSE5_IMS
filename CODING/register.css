@@ -1,0 +1,155 @@
+
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('A1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; 
+}
+
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.registerHeader h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.registerHeader h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.registerInputContainer {
+    margin-bottom: 20px;
+}
+
+.registerInputContainer label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+.registerInputContainer input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.registerInputContainer input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 180, 255, 0.5);
+    border: 1px solid #00b4ff;
+}
+
+
+.registerButtonContainer {
+    margin-top: 20px;
+}
+
+.registerButtonContainer button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.registerButtonContainer button:hover {
+    background-color: #45a049;
+}
+
+
+.googleSignInButton {
+    margin-top: 30px;
+}
+
+.g-signin2 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #4285F4; 
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.g-signin2:hover {
+    background-color: #357ae8;
+}
+
+
+.remember-forgot {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.remember-forgot a {
+    color: #00b4ff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.register-link {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

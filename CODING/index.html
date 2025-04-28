@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="1index.css">
+</head>
+<body>
+
+
+    <div class="main-content">
+        <h1>Monitor Your Inventory</h1>
+        <p>Track your stock in real time and manage inventory efficiently.</p>
+
+        <div class="summary">
+            <div class="summary-box">
+                <h3>Total Products</h3>
+                <p>00</p>
+            </div>
+            <div class="summary-box">
+                <h3>Out of Stock</h3>
+                <p>00</p>
+            </div>
+            <div class="summary-box">
+                <h3>Low Stock</h3>
+                <p>00</p>
+            </div>
+        </div>
+
+        <!-- This is where category tables will be inserted -->
+        <div id="inventory-tables"></div>
+
+        <!-- Button to add a new item -->
+        <button class="add-item-btn">+ Add New Item</button>
+    </div>
+
+
+
+    <div class="sidebar">
+        <h2>IMS Dashboard</h2>
+    
+        <!-- Profile Section -->
+        <li class="profile-item">
+            <img id="nav-profile-pic" src="images/default.jpg" alt="Profile Picture" class="nav-profile-pic">
+            <a href="profile1.html" class="nav-profile"></a>
+        </li>
+    
+        <ul>
+            <li><a href="profile1.html">profile</a></li>
+            <li><a href="Homepage1.html">Home</a></li>
+            <li><a href="get_started.html" class="active">Monitor Inventory</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Index.html">Logout</a></li>
+        </ul>
+    </div>
+    
+    
+
+    <script src="1index.js"></script>
+</body>
+</html>

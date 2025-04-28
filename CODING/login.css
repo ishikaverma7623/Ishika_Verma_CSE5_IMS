@@ -1,0 +1,68 @@
+body{
+    background: url('./A1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial;
+}
+div.loginHeader{
+    text-align: center;
+}
+div.loginHeader{
+    margin-bottom: 60px;
+}
+div.loginHeader h1{
+    font-size: 100px;
+    color:#250f36;
+    padding:0px;
+    margin: 0px;
+}
+div.loginHeader h3{
+    color: #1e0b10;
+    font-size: 40px;
+    border-bottom: 5px solid #c7bbbe;
+    margin: 0px;
+    }
+div.loginHeader p{
+    color: #ffdae3;
+    font-size: 50px;
+    margin: 0px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+div.loginHeader p:after{
+    content:''; 
+    display: block;
+    height: 5px;
+    background: #802a3f;
+    width: inherit;
+    margin: 0 auto;
+ }
+div.loginBody form{
+    margin:0 auto;
+    width: 200px;
+    background: rgba(0,0,0,.5);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+div.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #450e0e;
+}
+
+div.loginButtonContainer button{
+    
+    margin-top: 40px;
+    text-align: center;
+}
+div.loginButtonContainer button{
+    font-size: 20px;
+    padding: 5px 20px;
+    background: #c8b2b8;
+    border:none;
+    color: #640202;
+}
+
+

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 40%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    display: block;
+    width: 120px;
+    height: 120px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    margin: 0 auto; /* Centers it horizontally */
+}
+
+
+
+
+h2 {
+    color: #333;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.edit-btn, .save-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-btn:hover, .save-btn:hover {
+    background: #2980b9;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

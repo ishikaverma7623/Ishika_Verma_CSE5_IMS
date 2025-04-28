@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile1.css">
+</head>
+<body>
+    <div class="profile-container">
+
+
+
+
+        <img id="profile-pic" src="images/default.jpg" alt="Profile Picture" class="profile-pic">
+
+        <script>
+            document.getElementById("profile-pic").src = localStorage.getItem("profilePic") || "images/default.jpg";
+        </script>
+        
+        <h2 id="profile-name">Your Name</h2>
+        <p><strong>Email:</strong> <span id="profile-email">your@email.com</span></p>
+        <p><strong>Phone:</strong> <span id="profile-phone">1234567890</span></p>
+        <p><strong>Address:</strong> <span id="profile-address">Your Address</span></p>
+        <a href="profile2.html"><button class="edit-btn">Edit Profile</button></a>
+    </div>
+</body>
+</html>
